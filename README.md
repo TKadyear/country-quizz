@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Country Quizz
+This is a solution for a personal project built using Next.js, TailwindCSS, and TypeScript to display Country Quizz.
+It uses the [World Rank API](https://restcountries.com/) as data source to generate the quizz.
 
-## Getting Started
+## Table of Contents
+- [Overview](#overview)  
+- [Links](#links)  
+- [Technologies](#technologies)  
+- [Clone this repository](#clone-this-repository)  
+- [Author](#author)
 
-First, run the development server:
+## Overview  
+WIP
+
+
+## Technologies  
+- Framework: Next.js 15  
+- Styling: TailwindCSS 4  
+- Language: TypeScript  
+- Linter: ESLint  
+- Bundler: Turbopack (via Next.js)
+
+## Clone this repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this repository
+$ git clone https://github.com/TKadyear/country-quizz.git
+
+# Go into the project folder
+$ cd country-quizz
+
+# Install dependencies
+$ npm install
+
+# Start the development server
+$ npm run dev
+````
+
+To view the production server, run the following commands:
+
+```bash
+# Build the project for production
+$ npm run build
+
+# Start the production server
+$ npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Author
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- GitHub - [TKadyear](https://github.com/TKadyear)
+- LinkedIn - [Tamara Kadyear Saber](https://www.linkedin.com/in/tamara-kadyear-saber/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
