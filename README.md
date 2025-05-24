@@ -2,6 +2,7 @@
 This is a solution for a personal project built using Next.js, TailwindCSS, and TypeScript to display Country Quizz.
 It uses the [World Rank API](https://restcountries.com/) as data source to generate the quizz.
 
+Challenge from [DevChallenges - CountryQuizz](https://devchallenges.io/challenge/country-quizz)
 ## Table of Contents
 - [Overview](#overview)  
 - [Links](#links)  
